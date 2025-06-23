@@ -6,6 +6,8 @@ from Cliente import Cliente
 from Conta import Conta
 
 c1 = Cliente("Danilo", "114444-2222" )
-conta = Conta(0, 7200, c1.nome)
+conta = Conta(0, 7200, c1._nome)
 
-print(conta.titular, " Numero:", conta.numero, " Seu Saldo:", conta.saldo)
+conta.deposita(100)
+conta.saque(50)
+conta.extrato()

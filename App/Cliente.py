@@ -12,6 +12,7 @@ def get_nome(self):
 #método set
 def set_nome(self, nome):
     self._nome = nome
+
     
     
 
